@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ece3ce;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background: #739072;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+nav > button {
+    letter-spacing: 2px;
+    background: #4f6f52;
+    border: none;
+    height: 30px;
+    width: 90px;
+}
+
+nav > button:hover {
+    background: #3a4d39;
+}
