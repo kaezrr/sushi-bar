@@ -15,7 +15,7 @@ function createMenuCard(imgSrc, name, price) {
     return card;
 }
 
-function loadMenu() {
+export function loadMenu() {
     const menu = document.createElement('div');
     menu.classList = 'menu';
     menu.appendChild(createMenuCard(sushiPath1, 'Makizushi', 5.0));
@@ -29,5 +29,3 @@ function loadMenu() {
     mainContent.appendChild(h1);
     mainContent.appendChild(menu);
 }
-
-export { loadMenu };

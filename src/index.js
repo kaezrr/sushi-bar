@@ -1,6 +1,7 @@
 import './style.css';
 import { loadHome } from './home.js';
 import { loadMenu } from './menu.js';
+import { loadContact } from './contact.js';
 
 // Load home page when website is first loaded
 loadHome();
@@ -17,6 +18,7 @@ nav.addEventListener('click', (e) => {
             loadMenu();
             return;
         case 'CONTACT':
+            loadContact();
             return;
     }
 });

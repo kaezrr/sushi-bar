@@ -1,6 +1,6 @@
 import sushiImageHome from '../images/sushi.jpg';
 
-function loadHome() {
+export function loadHome() {
     const mainContent = document.querySelector('#content');
     const img = document.createElement('img');
     img.src = sushiImageHome;
@@ -17,5 +17,3 @@ function loadHome() {
     mainContent.appendChild(h1);
     mainContent.appendChild(p);
 }
-
-export { loadHome };
